@@ -24,3 +24,25 @@ echo "<br>";
 echo "Suaranya : ".$kucing->suara;
 echo "<br>";  
 echo "<hr>";
+
+class Anjing {
+	public $nama, $jumlah_kaki, $bisa_terbang, $suara;
+}
+
+$anjing = new Anjing;
+$anjing->nama = "Zeky";
+$anjing->jumlah_kaki = "4";
+$anjing->bisa_terbang = "Tidak bisa";
+$anjing->suara = "Gukguk";
+
+
+echo "Anjing <br>";
+echo "Yang Bernama : ".$anjing->nama;
+echo "<br>";
+echo "Jumlah Kaki Sebanyak : ".$anjing->jumlah_kaki;
+echo "<br>"; 
+echo "Apakah Bisa Terbang ? ".$anjing->bisa_terbang;
+echo "<br>"; 
+echo "Suaranya : ".$anjing->suara;
+echo "<br>";  
+echo "<hr>";
