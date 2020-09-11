@@ -46,3 +46,25 @@ echo "<br>";
 echo "Suaranya : ".$anjing->suara;
 echo "<br>";  
 echo "<hr>";
+
+class Elang {
+	public $nama, $jumlah_kaki, $bisa_terbang, $suara;
+}
+
+$elang = new Elang;
+$elang->nama = "Mumun";
+$elang->jumlah_kaki = "2";
+$elang->bisa_terbang = "Bisa dong";
+$elang->suara = "Miiiipp";
+
+
+echo "Elang <br>";
+echo "Yang Bernama : ".$elang->nama;
+echo "<br>";
+echo "Jumlah Kaki Sebanyak : ".$elang->jumlah_kaki;
+echo "<br>"; 
+echo "Apakah Bisa Terbang ? ".$elang->bisa_terbang;
+echo "<br>"; 
+echo "Suaranya : ".$elang->suara;
+echo "<br>";  
+echo "<hr>";
